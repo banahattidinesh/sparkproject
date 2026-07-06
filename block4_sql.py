@@ -14,10 +14,9 @@ df.createOrReplaceTempView("traffic_logs")
 # 4. EXECUTING SQL: Let's find out how many times each page was visited
 print("\n=== SQL RESULTS: PAGE VISITS ===")
 sql_query = """
-    SELECT page, COUNT(*) as total_visits 
-    FROM traffic_logs 
-    GROUP BY page 
-    ORDER BY total_visits DESC
+    SELECT  * from
+    traffic_logs
+        WHERE user_id = '101';
 """
 result_df = spark.sql(sql_query)
 
