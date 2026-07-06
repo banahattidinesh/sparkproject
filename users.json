@@ -1,0 +1,5 @@
+{"user_id": 101, "name": "Alice", "country": "USA", "subscription": "premium"}
+{"user_id": 102, "name": "Bob", "country": "UK", "subscription": "free"}
+{"user_id": 103, "name": "Charlie", "country": "USA", "subscription": "premium"}
+{"user_id": 104, "name": "David", "country": "Canada", "subscription": "free"}
+{"user_id": 105, "name": "Eve", "country": "UK", "subscription": "premium"}
